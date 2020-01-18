@@ -1,0 +1,26 @@
+body{
+    margin: 0; /* Sets margins to 0 allowing body elements to touch the border. */
+    width: 100vw; /* It means 100% of the viewport width. */ 
+    height: 100vh; /* It means 100% of the viewport height. */
+    /* The viewport is the user's visible area of a web page. */
+}
+
+/* #X means it is setting up properties of X. */
+/* If X is defined in a HTML and said CSS is imported in the head, the proerty should apply. */
+#happiness, #money{
+    position: absolute;
+    white-space: nowrap;
+     /* white-space property specifies how white-space inside an element is handled */
+     /* nowrap = not wrap. It means if it spawns near the border, text will cutoff instead of wrapping i.e. coming on next line */
+    font-size: 2rem;
+     /* 1rem equals the font size of the html element (default value of 16px) */
+     /* 0rem means 0 size */
+}
+
+/* #money{
+    position: absolute;
+    white-space: nowrap;
+    font-size: 1rem;
+} */
+
+/* absolute relative */
