@@ -1,5 +1,5 @@
 body{
-    margin: 0; /* Sets margins to 0 allowing body elements to touch the border. */
+    margin: 0; /* Sets margins to 0 allowing body all elements to touch the border. */
     width: 100vw; /* It means 100% of the viewport width. */ 
     height: 100vh; /* It means 100% of the viewport height. */
     /* The viewport is the user's visible area of a web page. */
@@ -17,10 +17,15 @@ body{
      /* 0rem means 0 size */
 }
 
-/* #money{
-    position: absolute;
-    white-space: nowrap;
-    font-size: 1rem;
-} */
+#happiness{
+    left: 0px; /* It means distance of this sprite from left margin */
+    top: 0px; /* It means distance of this sprite from top margin */
+    /* Both together makes this sprite be at top left */
+}
+#money{
+    right: 0px; /* It means distance of this sprite from right margin */
+    bottom: 0px; /* It means distance of this sprite from bottom margin */
+    /* Both together makes this sprite be at bottom right */
+}
 
 /* absolute relative */
